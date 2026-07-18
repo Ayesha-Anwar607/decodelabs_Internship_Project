@@ -1,0 +1,24 @@
+
+
+# Data Ecosystem (Never commit raw/processed csv files)
+*.csv
+*.tsv
+*.json
+!requirements.txt
+
+# Python Environment Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Jupyter / Kaggle Notebook Artifacts
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.kaggle/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
